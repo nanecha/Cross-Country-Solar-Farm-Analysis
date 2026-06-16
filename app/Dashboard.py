@@ -26,7 +26,7 @@ except ImportError:
 
 # ── Page config ──────────────────────────────────────────────────
 st.set_page_config(
-    page_title="West Africa Solar Dashboard",
+    page_title="West Africa Solar Farm analysis Dashboard",
     page_icon="🌞",
     layout="wide",
     initial_sidebar_state="expanded",
