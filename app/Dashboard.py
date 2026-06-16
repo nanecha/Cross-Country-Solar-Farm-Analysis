@@ -131,7 +131,7 @@ mask = (
 df_filtered = df_all[mask].copy()
 
 st.sidebar.markdown("---")
-st.sidebar.caption("Data: Synthetic demo (replace with real CSVs in data/)")
+st.sidebar.caption("Data:  From CSVs in data/)")
 
 
 # ════════════════════════════════════════════════════════════════
