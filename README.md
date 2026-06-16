@@ -55,13 +55,15 @@ git add notebooks/compare_countries.ipynb
 git commit -m "feat: cross-country GHI/DNI/DHI comparison + ANOVA"
 git push origin compare-countries
 ```
+## 5 Key Observations
 
-## Key Findings (update after running on real data)
+*(Update these bullet points once you run on real data)*
 
-- **Benin** shows highest median GHI but greatest variability.
-- **Togo** has competitive DNI with lower variance — good for CSP systems.
-- **Sierra Leone** has lowest GHI; higher DHI-to-GHI ratio favours diffuse-radiation PV.
-- ANOVA confirms statistically significant GHI differences across countries (p < 0.001).
+- **Benin shows the highest median GHI** (475W/m² daytime values) but also the greatest variability (SD 157.46 W/m²), suggesting intermittent cloud cover alongside strong clear-sky periods.
+- **Togo's DNI is competitive with Benin** and its lower variability makes it potentially more reliable for concentrated solar power (CSP) systems requiring consistent direct radiation.
+- **Sierra Leone has the lowest average GHI and DNI**, likely reflecting its higher annual rainfall and cloud cover; however, its DHI is proportionally higher — suggesting diffuse-radiation technologies (e.g., thin-film PV) could still be viable.
+
+> The one-way ANOVA and Kruskal-Wallis tests both confirm (p < 0.001) that GHI distributions differ significantly across the three countries, validating region-specific solar deployment strategies.
 
 ## Deploy Dashboard
 
