@@ -52,7 +52,7 @@ MONTH_LABELS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov
 
 
 # ════════════════════════════════════════════════════════════════
-#  DATA LOADING  (reads cleaned CSVs or generates synthetic data)
+#  DATA LOADING  (reads cleaned CSVs or generates synthetic data
 # ════════════════════════════════════════════════════════════════
 @st.cache_data(show_spinner="Loading datasets…")
 def load_data() -> dict[str, pd.DataFrame]:
