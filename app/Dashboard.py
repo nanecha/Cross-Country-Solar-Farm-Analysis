@@ -102,8 +102,8 @@ def load_data() -> dict[str, pd.DataFrame]:
 #  SIDEBAR
 # ════════════════════════════════════════════════════════════════
 st.sidebar.image("https://em-content.zobj.net/source/twitter/376/sun_2600-fe0f.png", width=60)
-st.sidebar.title("Solar Dashboard")
-st.sidebar.markdown("West Africa · 2021")
+st.sidebar.title("Solar Farm Analysis Dashboard")
+st.sidebar.markdown("West Africa · 2021-2022 · Benin, Sierra Leone, Togo")
 
 page = st.sidebar.radio(
     "Navigate",
