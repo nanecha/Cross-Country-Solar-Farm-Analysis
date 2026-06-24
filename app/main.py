@@ -12,6 +12,12 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+
 from app.utils import (
     load_all,
     summary_table,
