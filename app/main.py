@@ -32,7 +32,7 @@ from app.utils import (
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="MoonLight Energy — Solar Analysis",
+    page_title="solar Energy Analysis",
     page_icon="☀️",
     layout="wide",
     initial_sidebar_state="expanded",
