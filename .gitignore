@@ -5,3 +5,5 @@ env/
 data/
 figures/
 output/
+_pycache__/
+
