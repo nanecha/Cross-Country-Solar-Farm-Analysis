@@ -1,7 +1,7 @@
 """
 app/main.py
 -----------
-MoonLight Energy Solutions — Solar Investment Strategy Dashboard
+Solar Energy Analysis — Solar Investment Strategy Dashboard
 
 Run:
     streamlit run app/main.py
@@ -88,8 +88,8 @@ available = list(frames.keys())
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.image("https://img.icons8.com/fluency/96/sun.png", width=64)
-    st.markdown("## ☀️ MoonLight Energy")
-    st.markdown("**Solar Investment Analysis**")
+    st.markdown("## ☀️ Solar Energy Analysis")
+    st.markdown("**Solar Investment Strategy**")
     st.markdown("---")
 
     page = st.radio(
